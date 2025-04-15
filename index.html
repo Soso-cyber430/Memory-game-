@@ -3,12 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memory Game </title>
-    <link rel="stylesheet" href="style.css" /> 
+    <title>Memory Matching Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>🧠 Memory Match ✨</h1>
-    <div class="game-board" id="gameBoard"></div>
-  <script src="script.js"></script>
+  
+<header>
+  <h1> Memory match!</h1>
+</header>
+
+<div class="raindrops"></div>
+
+<div class="game-container">
+    <div class="game-icon">
+      <img src="diamond.png" alt="Sakura Flower" />
+    </div>
+    <div class="game-board">
+        <!-- 16 cards with letters inside -->
+        <div class="card" data-letter="A"><span>A</span></div>
+        <div class="card" data-letter="B"><span>B</span></div>
+        <div class="card" data-letter="C"><span>C</span></div>
+        <div class="card" data-letter="D"><span>D</span></div>
+        <div class="card" data-letter="E"><span>E</span></div>
+        <div class="card" data-letter="F"><span>F</span></div>
+        <div class="card" data-letter="G"><span>G</span></div>
+        <div class="card" data-letter="H"><span>H</span></div>
+        <div class="card" data-letter="A"><span>A</span></div>
+        <div class="card" data-letter="B"><span>B</span></div>
+        <div class="card" data-letter="C"><span>C</span></div>
+        <div class="card" data-letter="D"><span>D</span></div>
+        <div class="card" data-letter="E"><span>E</span></div>
+        <div class="card" data-letter="F"><span>F</span></div>
+        <div class="card" data-letter="G"><span>G</span></div>
+        <div class="card" data-letter="H"><span>H</span></div>
+    </div>
+  <div class="timer">
+    <span>Time: </span><span id="time-display">0:00</span>
+</div>   
+<script src="script.js"></script>
 </body>
 </html>
+
